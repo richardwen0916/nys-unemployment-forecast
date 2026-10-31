@@ -1,0 +1,11 @@
+pandas
+fredapi
+yfinance
+python-dotenv
+statsmodels
+requests
+openpyxl
+matplotlib
+streamlit
+plotly
+anthropic

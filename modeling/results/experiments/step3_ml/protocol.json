@@ -1,0 +1,154 @@
+{
+  "as_of": "2026-10-19",
+  "grid": {
+    "ridge": [
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 100.0
+      }
+    ],
+    "lasso": [
+      {
+        "alpha": 0.001
+      },
+      {
+        "alpha": 0.01
+      },
+      {
+        "alpha": 0.1
+      }
+    ],
+    "random_forest": [
+      {
+        "max_depth": 3,
+        "min_samples_leaf": 8
+      },
+      {
+        "max_depth": null,
+        "min_samples_leaf": 16
+      }
+    ],
+    "gradient_boosting": [
+      {
+        "max_depth": 1,
+        "min_samples_leaf": 10
+      },
+      {
+        "max_depth": 2,
+        "min_samples_leaf": 10
+      }
+    ],
+    "ridge_ar_only": [
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 100.0
+      }
+    ],
+    "ridge_regional": [
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 100.0
+      }
+    ]
+  },
+  "horizons": [
+    1,
+    3,
+    6
+  ],
+  "min_train": 60,
+  "feature_groups": {
+    "ridge": [
+      "latest_nyur_level",
+      "latest_nyur_diff_pp",
+      "nyur_age_months",
+      "ny_claims_sa_log_diff_lag1",
+      "ny_claims_sa_log_diff_lag2",
+      "ny_claims_sa_log_diff_lag3",
+      "ny_payrolls_log_growth_pct_lag2",
+      "ny_payrolls_log_growth_pct_lag3",
+      "latest_usur_level",
+      "latest_usur_diff_pp"
+    ],
+    "lasso": [
+      "latest_nyur_level",
+      "latest_nyur_diff_pp",
+      "nyur_age_months",
+      "ny_claims_sa_log_diff_lag1",
+      "ny_claims_sa_log_diff_lag2",
+      "ny_claims_sa_log_diff_lag3",
+      "ny_payrolls_log_growth_pct_lag2",
+      "ny_payrolls_log_growth_pct_lag3",
+      "latest_usur_level",
+      "latest_usur_diff_pp"
+    ],
+    "random_forest": [
+      "latest_nyur_level",
+      "latest_nyur_diff_pp",
+      "nyur_age_months",
+      "ny_claims_sa_log_diff_lag1",
+      "ny_claims_sa_log_diff_lag2",
+      "ny_claims_sa_log_diff_lag3",
+      "ny_payrolls_log_growth_pct_lag2",
+      "ny_payrolls_log_growth_pct_lag3",
+      "latest_usur_level",
+      "latest_usur_diff_pp"
+    ],
+    "gradient_boosting": [
+      "latest_nyur_level",
+      "latest_nyur_diff_pp",
+      "nyur_age_months",
+      "ny_claims_sa_log_diff_lag1",
+      "ny_claims_sa_log_diff_lag2",
+      "ny_claims_sa_log_diff_lag3",
+      "ny_payrolls_log_growth_pct_lag2",
+      "ny_payrolls_log_growth_pct_lag3",
+      "latest_usur_level",
+      "latest_usur_diff_pp"
+    ],
+    "ridge_ar_only": [
+      "latest_nyur_level",
+      "latest_nyur_diff_pp",
+      "nyur_age_months"
+    ],
+    "ridge_regional": [
+      "latest_nyur_level",
+      "latest_nyur_diff_pp",
+      "nyur_age_months",
+      "ny_claims_sa_log_diff_lag1",
+      "ny_claims_sa_log_diff_lag2",
+      "ny_claims_sa_log_diff_lag3",
+      "ny_payrolls_log_growth_pct_lag2",
+      "ny_payrolls_log_growth_pct_lag3",
+      "latest_usur_level",
+      "latest_usur_diff_pp",
+      "nj_ur_latest",
+      "nj_ur_diff_pp",
+      "ct_ur_latest",
+      "ct_ur_diff_pp",
+      "pa_ur_latest",
+      "pa_ur_diff_pp",
+      "empire_latest"
+    ]
+  },
+  "selection_period": "2016-01 through 2019-12 targets",
+  "selection_information_cutoff": "2020-01-31",
+  "selection_metric": "common-candidate validation RMSE",
+  "training": "published-label expanding window, Step 2 COVID exclusion",
+  "evaluation": "retrospective; 2020-2026 previously inspected by team"
+}

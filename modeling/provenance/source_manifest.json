@@ -1,0 +1,255 @@
+{
+  "copied_files": [
+    {
+      "path": "data/processed/monthly_panel.csv",
+      "original_relative_path": "data/processed/monthly_panel.csv",
+      "original_sha256": "1974ea48935eaa8949e4997212330d91194d389bed041f5a03c4f087aa533390",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "data/processed/data_dictionary.csv",
+      "original_relative_path": "data/processed/data_dictionary.csv",
+      "original_sha256": "b4ecf44c48cb20db2496c83f2d62dfd0922fbab12cfbb9c1dd9096ea5b8f9eab",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "data/processed/release_rules.csv",
+      "original_relative_path": "data/processed/release_rules.csv",
+      "original_sha256": "74f90ce2a97ad977ac61080dceba9469035e80cc30b04c8ff7c01f0ad519f050",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "data/processed/release_calendar.csv",
+      "original_relative_path": "data/processed/release_calendar.csv",
+      "original_sha256": "537274bbc44ed868d1083685e2f6c4f6c1bd06bcd656971b07356dbd5f6232ef",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "data/raw/fred_NYICLAIMS.csv",
+      "original_relative_path": "data/raw/fred_NYICLAIMS.csv",
+      "original_sha256": "ca0bec7d1f2a845ed03a659ad3d3befcd13da4baf0f9bcd443738f580e7e4dc7",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "src/models/data_availability.py",
+      "original_relative_path": "src/models/data_availability.py",
+      "original_sha256": "8210b11fbc737fe8d6b10e74cf2e1669fb8e131e42f39398c0ada9d125911384",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "src/models/rolling_stl.py",
+      "original_relative_path": "src/models/rolling_stl.py",
+      "original_sha256": "9b281556a8bb91f858a1a8c17dda668dc1a9d3f49b17ee47f060efc9f3d188bd",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "src/models/feature_engineering.py",
+      "original_relative_path": "src/models/feature_engineering.py",
+      "original_sha256": "9db83dfa4a7589638def185a704e6aae955a25f3faf6fae60d764a868b455d70",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "src/models/rolling_validation.py",
+      "original_relative_path": "src/models/rolling_validation.py",
+      "original_sha256": "0f34d1dc59c553492eacfcb3287afc96596cf79a381a5b13f39368568f468bdf",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "src/models/run_validation.py",
+      "original_relative_path": "src/models/run_validation.py",
+      "original_sha256": "f6d4e9d963f87cce4f277bdf0dd9e85be82000b6bfa34fffac3744ea4c19ed11",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "src/models/out_of_sample.py",
+      "original_relative_path": "src/models/out_of_sample.py",
+      "original_sha256": "6dc8662eb466f6ef05b62ac6f7c17247955fef18bc55f9fa00bd681b78f6391e",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "src/models/validation_report.py",
+      "original_relative_path": "src/models/validation_report.py",
+      "original_sha256": "e5fb527bdd91c00498edfe6f09911c7de0b656f9c562938a5148cbbe9f2f3a50",
+      "packaging_adjustment": "See PACKAGING_NOTES.md"
+    },
+    {
+      "path": "src/models/out_of_sample_report.py",
+      "original_relative_path": "src/models/out_of_sample_report.py",
+      "original_sha256": "724010663d01dc425f270b552235b45263f6b188ccf9012297b256f815f62df6",
+      "packaging_adjustment": "See PACKAGING_NOTES.md"
+    },
+    {
+      "path": "results/modeling/validation_forecasts.csv",
+      "original_relative_path": "results/modeling/validation_forecasts.csv",
+      "original_sha256": "d415c8af7a87a55e1e2a9896088aaef08c04088fde0f978a296e07054e15d801",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/validation_metrics.csv",
+      "original_relative_path": "results/modeling/validation_metrics.csv",
+      "original_sha256": "b6ff389ae08b824e7f9967587cef04f0ac1e5cf51c21a3bc6ae5127f69c25e46",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_forecasts.csv",
+      "original_relative_path": "results/modeling/test_forecasts.csv",
+      "original_sha256": "7ebf57f0ac8b58546e838e001e221e2323181e32ed237387190ef7e0c759ee08",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_metrics.csv",
+      "original_relative_path": "results/modeling/test_metrics.csv",
+      "original_sha256": "42998234541afa7300a1cdd4049f372654e8fc45e9d3c3fc2ea584585672ecf8",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/selected_specifications.csv",
+      "original_relative_path": "results/modeling/selected_specifications.csv",
+      "original_sha256": "32bb9d5ac2e204114cd8b27b42b2606037f8314a775c04cc71ef1aeeeac33684",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/model_specifications.csv",
+      "original_relative_path": "results/modeling/model_specifications.csv",
+      "original_sha256": "70d338280078943b10b67183690af3e61db02ef4366a327c06f33e0b83ea4919",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_frozen_specifications.csv",
+      "original_relative_path": "results/modeling/test_frozen_specifications.csv",
+      "original_sha256": "3f585938582b2543e6241ad8a83aca05b5032f02209496b84f82de25e99a9ff1",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_frozen_specifications.json",
+      "original_relative_path": "results/modeling/test_frozen_specifications.json",
+      "original_sha256": "f9c23693bbb9665c908f02a4368c8470cc176878f6e4707dab91cfb9d3fea9a4",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/run_metadata.json",
+      "original_relative_path": "results/modeling/run_metadata.json",
+      "original_sha256": "3d3709ee60bc5b1e5134c1b52fd280a8c5f01381bb04602e4337c281bda49ade",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_run_metadata.json",
+      "original_relative_path": "results/modeling/test_run_metadata.json",
+      "original_sha256": "845ae049465d3533b959aa9fb607ddd1caa82d2d3043581190245e13243d8427",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_training_sample_coverage.csv",
+      "original_relative_path": "results/modeling/test_training_sample_coverage.csv",
+      "original_sha256": "625826e80816a8c3970ff7a7496f5b50279415b42d52ad1acea6c030c8780184",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_extreme_forecasts.csv",
+      "original_relative_path": "results/modeling/test_extreme_forecasts.csv",
+      "original_sha256": "accf1c4fc017aa872e0545fee02eb2dbf0ce0d1562e0137dd158b9bf1225be54",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_shock_forecast_contributions.csv",
+      "original_relative_path": "results/modeling/test_shock_forecast_contributions.csv",
+      "original_sha256": "70a900ebd952af48d0b3549ac6492c9b51d4a7f69d0f04c8262ea14e5a0b33c3",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_model_comparison_covid.png",
+      "original_relative_path": "results/modeling/test_model_comparison_covid.png",
+      "original_sha256": "950e258947ac867bf4817c34334de2ae32af9634d63d76f5ad5cda70d2dd1566",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_model_comparison_post_covid.png",
+      "original_relative_path": "results/modeling/test_model_comparison_post_covid.png",
+      "original_sha256": "bd2d1ec2128a5fe260fb46b868c72f323bc0807c49de9c2e965278edfe115872",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "results/modeling/test_model_comparison_combined.png",
+      "original_relative_path": "results/modeling/test_model_comparison_combined.png",
+      "original_sha256": "31f4b6f446b1247e02b54b291d1511f559573d5055e731b96a36f4efd0c486ea",
+      "packaging_adjustment": "none"
+    },
+    {
+      "path": "tests/test_data_availability.py",
+      "original_relative_path": "tests/test_data_availability.py",
+      "original_sha256": "78d2006217cfe367b651445db054f9603f462678d8df1593064dd0e2c744dbd8",
+      "packaging_adjustment": "See PACKAGING_NOTES.md"
+    },
+    {
+      "path": "tests/test_feature_engineering.py",
+      "original_relative_path": "tests/test_feature_engineering.py",
+      "original_sha256": "c1e00e9e2ddefc34a1c0d0e35ee0ad269f02411ec9ffc6ab68a96b9025590724",
+      "packaging_adjustment": "See PACKAGING_NOTES.md"
+    },
+    {
+      "path": "tests/test_payroll_release_audit.py",
+      "original_relative_path": "tests/test_payroll_release_audit.py",
+      "original_sha256": "627dbf8f1192191b4240557ff3d10cc6e5120a3363f9738134c15042445b9a63",
+      "packaging_adjustment": "See PACKAGING_NOTES.md"
+    },
+    {
+      "path": "tests/test_out_of_sample.py",
+      "original_relative_path": "tests/test_out_of_sample.py",
+      "original_sha256": "d3138cb6c2a735859becc6cbf5950b359386a29d995cfc9f7b0aef9b5c6d42af",
+      "packaging_adjustment": "See PACKAGING_NOTES.md"
+    },
+    {
+      "path": "tests/test_rolling_validation.py",
+      "original_relative_path": "tests/test_rolling_validation.py",
+      "original_sha256": "0c7d896602b6e485c514308d38dc41d82559ad223122003c232dc0e1d328091d",
+      "packaging_adjustment": "none"
+    }
+  ],
+  "omitted_tests": [
+    {
+      "file": "test_data_availability.py",
+      "method": "test_daily_average_waits_for_all_days_and_month_end"
+    },
+    {
+      "file": "test_data_availability.py",
+      "method": "test_incomplete_daily_source_is_blocked"
+    },
+    {
+      "file": "test_data_availability.py",
+      "method": "test_original_files_unchanged"
+    },
+    {
+      "file": "test_data_availability.py",
+      "method": "test_verified_weekly_national_claims"
+    },
+    {
+      "file": "test_feature_engineering.py",
+      "method": "test_descriptive_correlation_checks_constant_input"
+    },
+    {
+      "file": "test_feature_engineering.py",
+      "method": "test_framework_integrated_and_original_files_preserved"
+    },
+    {
+      "file": "test_feature_engineering.py",
+      "method": "test_sparse_lag_relationship_is_not_reported_as_a_correlation"
+    },
+    {
+      "file": "test_payroll_release_audit.py",
+      "method": "test_no_other_release_metadata_changed"
+    },
+    {
+      "file": "test_payroll_release_audit.py",
+      "method": "test_payroll_growth_requires_both_months_and_audit_matches_production_features"
+    },
+    {
+      "file": "test_out_of_sample.py",
+      "method": "test_original_code_data_and_validation_artifacts_preserved"
+    },
+    {
+      "file": "test_out_of_sample.py",
+      "method": "test_saved_historical_january_gap_is_never_revised_later"
+    }
+  ],
+  "note": "Original-relative paths only. No credentials or user-specific absolute paths. Original project never modified."
+}

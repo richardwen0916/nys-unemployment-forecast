@@ -1,0 +1,26 @@
+spec_id,model,features,order,core_spec,response,trend,minimum_training_observations
+M0_naive,M0,,,,NYUR level,none,1
+M1_000,M1,,"0,0,0",,NYUR level,constant,60
+M1_001,M1,,"0,0,1",,NYUR level,constant,60
+M1_002,M1,,"0,0,2",,NYUR level,constant,60
+M1_010,M1,,"0,1,0",,NYUR level,none,60
+M1_011,M1,,"0,1,1",,NYUR level,none,60
+M1_012,M1,,"0,1,2",,NYUR level,none,60
+M1_100,M1,,"1,0,0",,NYUR level,constant,60
+M1_101,M1,,"1,0,1",,NYUR level,constant,60
+M1_102,M1,,"1,0,2",,NYUR level,constant,60
+M1_110,M1,,"1,1,0",,NYUR level,none,60
+M1_111,M1,,"1,1,1",,NYUR level,none,60
+M1_112,M1,,"1,1,2",,NYUR level,none,60
+M1_200,M1,,"2,0,0",,NYUR level,constant,60
+M1_201,M1,,"2,0,1",,NYUR level,constant,60
+M1_202,M1,,"2,0,2",,NYUR level,constant,60
+M1_210,M1,,"2,1,0",,NYUR level,none,60
+M1_211,M1,,"2,1,1",,NYUR level,none,60
+M1_212,M1,,"2,1,2",,NYUR level,none,60
+M2_payroll_lag2,M2,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag2,,M2_payroll_lag2,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+M3_payroll_lag2_us_level,M3,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag2;latest_usur_level,,M2_payroll_lag2,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+M3_payroll_lag2_us_diff_pp,M3,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag2;latest_usur_diff_pp,,M2_payroll_lag2,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+M2_payroll_lag3,M2,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag3,,M2_payroll_lag3,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+M3_payroll_lag3_us_level,M3,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag3;latest_usur_level,,M2_payroll_lag3,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+M3_payroll_lag3_us_diff_pp,M3,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag3;latest_usur_diff_pp,,M2_payroll_lag3,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60

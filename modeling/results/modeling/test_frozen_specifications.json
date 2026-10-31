@@ -1,0 +1,162 @@
+{
+  "locked_as_of": "2026-10-19",
+  "source_sha256": {
+    "selected_specifications.csv": "32bb9d5ac2e204114cd8b27b42b2606037f8314a775c04cc71ef1aeeeac33684",
+    "model_specifications.csv": "70d338280078943b10b67183690af3e61db02ef4366a327c06f33e0b83ea4919",
+    "run_metadata.json": "3d3709ee60bc5b1e5134c1b52fd280a8c5f01381bb04602e4337c281bda49ade"
+  },
+  "validation_information_cutoff": "2020-01-31",
+  "forecasting_function_sha256": "0f34d1dc59c553492eacfcb3287afc96596cf79a381a5b13f39368568f468bdf",
+  "feature_function_sha256": "9db83dfa4a7589638def185a704e6aae955a25f3faf6fae60d764a868b455d70",
+  "stl_function_sha256": "9b281556a8bb91f858a1a8c17dda668dc1a9d3f49b17ee47f060efc9f3d188bd",
+  "specifications": [
+    {
+      "horizon": 1,
+      "spec_id": "M0_naive",
+      "model": "M0",
+      "features": [],
+      "order": [],
+      "core_spec": ""
+    },
+    {
+      "horizon": 1,
+      "spec_id": "M1_012",
+      "model": "M1",
+      "features": [],
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "core_spec": ""
+    },
+    {
+      "horizon": 1,
+      "spec_id": "M2_payroll_lag2",
+      "model": "M2",
+      "features": [
+        "latest_nyur_level",
+        "latest_nyur_diff_pp",
+        "nyur_age_months",
+        "ny_claims_sa_log_diff_lag1",
+        "ny_payrolls_log_growth_pct_lag2"
+      ],
+      "order": [],
+      "core_spec": "M2_payroll_lag2"
+    },
+    {
+      "horizon": 1,
+      "spec_id": "M3_payroll_lag3_us_diff_pp",
+      "model": "M3",
+      "features": [
+        "latest_nyur_level",
+        "latest_nyur_diff_pp",
+        "nyur_age_months",
+        "ny_claims_sa_log_diff_lag1",
+        "ny_payrolls_log_growth_pct_lag3",
+        "latest_usur_diff_pp"
+      ],
+      "order": [],
+      "core_spec": "M2_payroll_lag3"
+    },
+    {
+      "horizon": 3,
+      "spec_id": "M0_naive",
+      "model": "M0",
+      "features": [],
+      "order": [],
+      "core_spec": ""
+    },
+    {
+      "horizon": 3,
+      "spec_id": "M1_012",
+      "model": "M1",
+      "features": [],
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "core_spec": ""
+    },
+    {
+      "horizon": 3,
+      "spec_id": "M2_payroll_lag2",
+      "model": "M2",
+      "features": [
+        "latest_nyur_level",
+        "latest_nyur_diff_pp",
+        "nyur_age_months",
+        "ny_claims_sa_log_diff_lag1",
+        "ny_payrolls_log_growth_pct_lag2"
+      ],
+      "order": [],
+      "core_spec": "M2_payroll_lag2"
+    },
+    {
+      "horizon": 3,
+      "spec_id": "M3_payroll_lag3_us_level",
+      "model": "M3",
+      "features": [
+        "latest_nyur_level",
+        "latest_nyur_diff_pp",
+        "nyur_age_months",
+        "ny_claims_sa_log_diff_lag1",
+        "ny_payrolls_log_growth_pct_lag3",
+        "latest_usur_level"
+      ],
+      "order": [],
+      "core_spec": "M2_payroll_lag3"
+    },
+    {
+      "horizon": 6,
+      "spec_id": "M0_naive",
+      "model": "M0",
+      "features": [],
+      "order": [],
+      "core_spec": ""
+    },
+    {
+      "horizon": 6,
+      "spec_id": "M1_012",
+      "model": "M1",
+      "features": [],
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "core_spec": ""
+    },
+    {
+      "horizon": 6,
+      "spec_id": "M2_payroll_lag2",
+      "model": "M2",
+      "features": [
+        "latest_nyur_level",
+        "latest_nyur_diff_pp",
+        "nyur_age_months",
+        "ny_claims_sa_log_diff_lag1",
+        "ny_payrolls_log_growth_pct_lag2"
+      ],
+      "order": [],
+      "core_spec": "M2_payroll_lag2"
+    },
+    {
+      "horizon": 6,
+      "spec_id": "M3_payroll_lag2_us_diff_pp",
+      "model": "M3",
+      "features": [
+        "latest_nyur_level",
+        "latest_nyur_diff_pp",
+        "nyur_age_months",
+        "ny_claims_sa_log_diff_lag1",
+        "ny_payrolls_log_growth_pct_lag2",
+        "latest_usur_diff_pp"
+      ],
+      "order": [],
+      "core_spec": "M2_payroll_lag2"
+    }
+  ],
+  "policy": "Frozen orders, features, lags, transformations, trend, OLS scaling, min_nobs and optimizer policy; coefficients refitted only on released expanding history"
+}

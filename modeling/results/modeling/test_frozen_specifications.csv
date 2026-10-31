@@ -1,0 +1,13 @@
+horizon,model,spec_id,selection_rmse,selection_n,features,order,core_spec,response,trend,minimum_training_observations
+1,M0,M0_naive,0.1620185174601965,48,,,,NYUR level,none,1
+1,M1,M1_012,0.1387390695858639,48,,"0,1,2",,NYUR level,none,60
+1,M2,M2_payroll_lag2,0.1646553583600692,48,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag2,,M2_payroll_lag2,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+1,M3,M3_payroll_lag3_us_diff_pp,0.1604327114411188,48,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag3;latest_usur_diff_pp,,M2_payroll_lag3,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+3,M0,M0_naive,0.2358495283014152,48,,,,NYUR level,none,1
+3,M1,M1_012,0.2200478061026947,48,,"0,1,2",,NYUR level,none,60
+3,M2,M2_payroll_lag2,0.2839295718169454,48,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag2,,M2_payroll_lag2,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+3,M3,M3_payroll_lag3_us_level,0.2767286215538588,48,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag3;latest_usur_level,,M2_payroll_lag3,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+6,M0,M0_naive,0.3191786333700926,48,,,,NYUR level,none,1
+6,M1,M1_012,0.3069841798846991,48,,"0,1,2",,NYUR level,none,60
+6,M2,M2_payroll_lag2,0.4460251994417188,48,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag2,,M2_payroll_lag2,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60
+6,M3,M3_payroll_lag2_us_diff_pp,0.4283351910120164,48,latest_nyur_level;latest_nyur_diff_pp;nyur_age_months;ny_claims_sa_log_diff_lag1;ny_payrolls_log_growth_pct_lag2;latest_usur_diff_pp,,M2_payroll_lag2,NYUR target minus latest published NYUR at original feature origin,OLS intercept,60

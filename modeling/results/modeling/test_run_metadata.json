@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-10-19",
+  "latest_available_target": "2026-08-01",
+  "target_start": "2020-01-01",
+  "planned_target_months": 80,
+  "origins": 85,
+  "forecast_records": 960,
+  "new_model_selection": false,
+  "validation_information_cutoff": "2020-01-31",
+  "boundary_policy": "Full requested test retained; supplementary origins on/after validation-information cutoff; no retuning",
+  "training_policy": "Expanding original-origin snapshots; earlier test labels enter only after publication",
+  "missing_policy": "No interpolation, clipping or fallback forecast; incomplete direct predictors excluded explicitly",
+  "original_code_modified": false,
+  "release_metadata_modified": false
+}

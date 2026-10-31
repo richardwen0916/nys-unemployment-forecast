@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-10-19",
+  "last_origin": "2026-09-30",
+  "inputs": {
+    "data/processed/monthly_panel.csv": "1974ea48935eaa8949e4997212330d91194d389bed041f5a03c4f087aa533390",
+    "data/processed/data_dictionary.csv": "b4ecf44c48cb20db2496c83f2d62dfd0922fbab12cfbb9c1dd9096ea5b8f9eab",
+    "data/raw/fred_NYICLAIMS.csv": "ca0bec7d1f2a845ed03a659ad3d3befcd13da4baf0f9bcd443738f580e7e4dc7",
+    "data/experiments/release_rules_v2.csv": "ef1e64365c4dcb76dfe9ced11d636e864ffb064a37ef3e71f32667378e887828",
+    "data/experiments/release_calendar_v2.csv": "2c01e33393ef13ca7d5b0ce7c27f7204bf468c8b3106eca126fefa47e018c907",
+    "src/models/data_availability.py": "8210b11fbc737fe8d6b10e74cf2e1669fb8e131e42f39398c0ada9d125911384",
+    "src/models/feature_engineering.py": "9db83dfa4a7589638def185a704e6aae955a25f3faf6fae60d764a868b455d70",
+    "src/models/rolling_stl.py": "9b281556a8bb91f858a1a8c17dda668dc1a9d3f49b17ee47f060efc9f3d188bd",
+    "src/models/rolling_validation.py": "0f34d1dc59c553492eacfcb3287afc96596cf79a381a5b13f39368568f468bdf",
+    "src/models/out_of_sample.py": "6dc8662eb466f6ef05b62ac6f7c17247955fef18bc55f9fa00bd681b78f6391e",
+    "src/experiments/step3_ml/features.py": "9388f574562a377e1c1b563dddb6520b613b2140bde87a1ff05399c3d0dcd51a"
+  },
+  "outputs": {
+    "origin_features.csv": "7d257a8a595c3b01fb4351122e88166c35d9e3ca350bcb09c1c7ede0c1b03138",
+    "origin_metadata.csv": "b434fa1c05ab21e8d0f26b805254b6696297d2a469ee0761281eddec3c14082c",
+    "labels.csv": "c5f6327115eab518c1e651fd4d51b14a58f8bb8d077360739f196e384d114aa5",
+    "extra_release_audit.csv": "8448f8f66ce5e669b9f37b3e8a687595fb6aff2b0a7f604383305b8a5c6b1f4b"
+  },
+  "policy": "Step 2 v2 timing; immutable own-origin robust STL; published labels only; no filling"
+}

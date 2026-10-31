@@ -1,0 +1,34 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.9"
+  },
+  "git_head": "391860f231aa8f626a90fb4ee252b0149c382668",
+  "branch": "step3-ml-validation",
+  "sources": {
+    "modeling/src/experiments/step3_ml/features.py": "9388f574562a377e1c1b563dddb6520b613b2140bde87a1ff05399c3d0dcd51a",
+    "modeling/src/experiments/step3_ml/models.py": "e97e2eee34c7baf14f3b44baf15e8e0ada25c35ecdc90782cd1ba3c14d6867d1",
+    "modeling/src/experiments/step3_ml/run.py": "6a500769ee979266d21a9a24e0bac20ba1db0a0a2d3b135bdf21fc66133a3bb6",
+    "modeling/results/experiments/step3_ml/feature_manifest.json": "b80baede32baa3cd569efd101ffb3461236c9a0d7c2fba05edef131aa1a2c7fb",
+    "results/forecasts.csv": "2e391880d2a0b5cb05044731f3a74898ab861c3bf841d723c56ef07f662a3cf9"
+  },
+  "selected_lock_sha256": "b50ca61f3c9f933eb72210ba0b0bb9f18ea0800a7203dd69c297defb066e2907",
+  "forecasts": 2340,
+  "recommended": {
+    "1": "ridge_regional",
+    "3": "ridge_regional",
+    "6": "gradient_boosting"
+  },
+  "limitations": [
+    "Revised snapshot; not historical vintages",
+    "Release timing includes estimated rules",
+    "Test history already inspected; retrospective benchmarking",
+    "Live intervals use validation residuals only; not shock-calibrated",
+    "Model selection unknown at early COVID origins; flagged in forecasts"
+  ]
+}

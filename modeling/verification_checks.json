@@ -1,0 +1,33 @@
+{
+  "retained_original_tests": 68,
+  "new_handoff_tests": 5,
+  "tests_passed": 73,
+  "skipped_tests": 0,
+  "tested_python": "3.12.2",
+  "tested_platform": "macOS",
+  "dependency_installation": "Pinned requirements satisfied offline in a temporary venv using installed system site-packages; not a fresh PyPI download/install",
+  "isolated_package_copy": true,
+  "full_refit_completed": true,
+  "forecasts_refitted": 1536,
+  "historical_origins": 439,
+  "specifications_changed": false,
+  "max_absolute_prediction_difference_vs_saved": {
+    "validation": 4.440892098500626e-16,
+    "test": 6.394884621840902e-14
+  },
+  "tolerance_pp": 1e-06,
+  "policy": "Same model functions, own-origin STL and published-label gating; no grid or selection; no external project files",
+  "validation_metric_rows_reconciled": 12,
+  "test_metric_rows_reconciled": 72,
+  "copied_canonical_data_code_and_results_verified": true,
+  "original_nonsecret_project_files_unchanged": 201,
+  "original_file_set_unchanged": true,
+  "project_data_and_code_reads_confined": true,
+  "external_project_reads_completed": 0,
+  "network_connections_disabled_during_isolation": true,
+  "isolation_note": "Two nonessential OS version/timezone file probes were blocked before reading; installed Python libraries and permitted system timezone files are runtime dependencies",
+  "original_project_changes": false,
+  "new_model_experiments": false,
+  "github_actions": false,
+  "reproduction_runner_sha256": "80c0543de5f4491ae1a12bc188af74fb2eb66b3dba0bb862de616107622f3f8d"
+}

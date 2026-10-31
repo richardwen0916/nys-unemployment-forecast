@@ -1,0 +1,49 @@
+path,purpose,bytes,sha256
+MODEL_RESULTS.md,"Answer-first summary of verified validation and test findings, extreme failure, coverage and evaluation limitations.",6050,0644719f9d7a8102a10343404eb52bc165ca1ee222341575aa752ff841bb1fe4
+PACKAGING_NOTES.md,"Explains smallest runnable import closure, omissions and packaging-only source/test changes.",3141,6c1824feafecdde2a838ca77ba5250bf87ce4b40954c5b526a200a5ecff6600a
+RELEASE_POLICY.md,"Concise core release rules, official source links, publication versus vintage distinction and STL policy.",3057,6a8a4db3591af5a39f6552d98e258fa01f8c43ddb804bdf26208ad0c4f1e93a5
+START_HERE.md,"Primary 5–10 minute guide, data scope, tested commands, frozen design and experiment protocol.",11314,6d520a85717ea8c52f42cfd5683e0975263224e2f64601f8292e7c50655506ea
+VERIFICATION.md,"Final checks, retained test count, isolated reproduction evidence, dependency installation and original preservation limitations.",4739,611a9b6835a0e24c722514a500f51a9ee1758ea9e0f679e8ae3059877ca45038
+data/processed/data_dictionary.csv,"Original units, source IDs and aggregation definitions; see START_HERE warning about obsolete full-sample STL advice.",5252,b4ecf44c48cb20db2496c83f2d62dfd0922fbab12cfbb9c1dd9096ea5b8f9eab
+data/processed/monthly_panel.csv,Single unchanged snapshot; core inputs and original NYUR evaluation levels; extra columns are ignored by core loader.,75880,1974ea48935eaa8949e4997212330d91194d389bed041f5a03c4f087aa533390
+data/processed/release_calendar.csv,Unchanged observation-specific release timestamps and official evidence URLs.,43879,537274bbc44ed868d1083685e2f6c4f6c1bd06bcd656971b07356dbd5f6232ef
+data/processed/release_rules.csv,Unchanged availability rules and explicit conservative fallbacks.,8931,74f90ce2a97ad977ac61080dceba9469035e80cc30b04c8ff7c01f0ad519f050
+data/raw/fred_NYICLAIMS.csv,Only required raw constituent file: weekly NY claims for availability checks and origin-window STL.,40336,ca0bec7d1f2a845ed03a659ad3d3befcd13da4baf0f9bcd443738f580e7e4dc7
+provenance/source_manifest.json,Provenance and exact omitted-test list for all copied/adapted files.,10881,dbbd584be65fd778361357d17b5fd33a5dbf4355d7d13675b98abc7653c5705a
+requirements.txt,Pinned numeric/model dependencies; excludes API clients and collection tools. Plotting also installs its declared rendering dependencies.,252,427ab9319263e1c2b133467e644d241e4c87941721cb2d9e50ebb8f949610fb8
+results/modeling/coverage_summary.csv,Derived coverage table from canonical validation/test metric counts; no new model estimation.,2385,a64da6f054333b9b64380be879b59ef63d9ce73890b020c3bcc460e31d450382
+results/modeling/model_specifications.csv,"Original candidate declarations, feature names and ARIMA orders.",2369,70d338280078943b10b67183690af3e61db02ef4366a327c06f33e0b83ea4919
+results/modeling/run_metadata.json,"Original validation software, scoring cutoff and methodological provenance; required by frozen loader.",1011,3d3709ee60bc5b1e5134c1b52fd280a8c5f01381bb04602e4337c281bda49ade
+results/modeling/selected_specifications.csv,Saved validation choices; no selection is repeated in the handoff.,554,32bb9d5ac2e204114cd8b27b42b2606037f8314a775c04cc71ef1aeeeac33684
+results/modeling/test_extreme_forecasts.csv,"Largest unrepaired test prediction errors, including COVID extrapolation failure.",9020,accf1c4fc017aa872e0545fee02eb2dbf0ce0d1562e0137dd158b9bf1225be54
+results/modeling/test_forecasts.csv,"Canonical frozen test forecasts, missing predictions, labels and scoring exclusions; 960 records.",485712,7ebf57f0ac8b58546e838e001e221e2323181e32ed237387190ef7e0c759ee08
+results/modeling/test_frozen_specifications.csv,Frozen twelve model/horizon declarations.,2110,3f585938582b2543e6241ad8a83aca05b5032f02209496b84f82de25e99a9ff1
+results/modeling/test_frozen_specifications.json,Frozen source hashes and specification-information chronology.,4054,f9c23693bbb9665c908f02a4368c8470cc176878f6e4707dab91cfb9d3fea9a4
+results/modeling/test_metrics.csv,Canonical common-sample COVID/post-COVID/combined metrics; two explicit chronology views.,16933,42998234541afa7300a1cdd4049f372654e8fc45e9d3c3fc2ea584585672ecf8
+results/modeling/test_model_comparison_combined.png,Original combined RMSE chart; values trace to test_metrics.csv requested_full_period.,126400,31f4b6f446b1247e02b54b291d1511f559573d5055e731b96a36f4efd0c486ea
+results/modeling/test_model_comparison_covid.png,Original COVID RMSE chart; values trace to test_metrics.csv requested_full_period.,124093,950e258947ac867bf4817c34334de2ae32af9634d63d76f5ad5cda70d2dd1566
+results/modeling/test_model_comparison_post_covid.png,Original post-COVID RMSE chart; values trace to test_metrics.csv requested_full_period.,119848,bd2d1ec2128a5fe260fb46b868c72f323bc0807c49de9c2e965278edfe115872
+results/modeling/test_run_metadata.json,"Original frozen-test window, as-of cutoff and fitting policy.",691,845ae049465d3533b959aa9fb607ddd1caa82d2d3043581190245e13243d8427
+results/modeling/test_shock_forecast_contributions.csv,Independent arithmetic decomposition of extreme June 2020 direct forecasts.,6291,70a900ebd952af48d0b3549ac6492c9b51d4a7f69d0f04c8262ea14e5a0b33c3
+results/modeling/test_training_sample_coverage.csv,Direct training eligibility and complete-case exclusions at every test fit.,190855,625826e80816a8c3970ff7a7496f5b50279415b42d52ad1acea6c030c8780184
+results/modeling/validation_forecasts.csv,Canonical selected validation forecasts; 576 records.,286684,d415c8af7a87a55e1e2a9896088aaef08c04088fde0f978a296e07054e15d801
+results/modeling/validation_metrics.csv,Canonical validation MAE/RMSE and common-target coverage.,1692,b6ff389ae08b824e7f9967587cef04f0ac1e5cf51c21a3bc6ae5127f69c25e46
+src/__init__.py,Explicit package imports.,35,a7b29ea8d1aa72f593ba52a2b93709519e2375826f33087c8489b697f3217ee8
+src/handoff.py,Portable offline inspector/refitter: regenerates features without omitted archival caches; fixed specifications only.,8179,80c0543de5f4491ae1a12bc188af74fb2eb66b3dba0bb862de616107622f3f8d
+src/models/__init__.py,Explicit model package imports.,40,97a31193b7b58edc3be41571ec915ad9632b85098a911e37fab260564d51ef18
+src/models/data_availability.py,Publication-date masking and constituent completeness.,11259,8210b11fbc737fe8d6b10e74cf2e1669fb8e131e42f39398c0ada9d125911384
+src/models/feature_engineering.py,"Core feature window, calendar lags and separate labels.",11563,9db83dfa4a7589638def185a704e6aae955a25f3faf6fae60d764a868b455d70
+src/models/out_of_sample.py,"Unchanged frozen-spec loader, expanding label gate, test plans and metric implementation.",20836,6dc8662eb466f6ef05b62ac6f7c17247955fef18bc55f9fa00bd681b78f6391e
+src/models/out_of_sample_report.py,Original evaluator import dependency and reporting implementation.,19655,c9bf66beb1793a7464e7370952122252e88e188239a0af0a4ca677486888f357
+src/models/rolling_stl.py,Origin-specific robust log-STL; no full-sample seasonal adjustment.,2752,9b281556a8bb91f858a1a8c17dda668dc1a9d3f49b17ee47f060efc9f3d188bd
+src/models/rolling_validation.py,"Unchanged baseline model functions, training eligibility and horizon alignment.",14269,0f34d1dc59c553492eacfcb3287afc96596cf79a381a5b13f39368568f468bdf
+src/models/run_validation.py,"Import dependency: snapshot fingerprint and original validation selection logic, tested but not re-executed by handoff runner.",13833,f6d4e9d963f87cce4f277bdf0dd9e85be82000b6bfa34fffac3744ea4c19ed11
+src/models/validation_report.py,Import dependency of out-of-sample renderer; original plotting utilities and model labels.,17405,80d5c30c0f1d472fcece92394670b1e6476c5848e6382a5db2921390a235a7f0
+tests/test_data_availability.py,Retained core regression tests; packaging-only fixture/exclusion details in PACKAGING_NOTES.md.,11752,f94148ee5cb02d20346b3a7da13fb0356c694e71fc11d85828ab19077fcaba63
+tests/test_feature_engineering.py,Retained core regression tests; packaging-only fixture/exclusion details in PACKAGING_NOTES.md.,7800,d50778a4d686325b468d7b3f3fd6921baf1f3d574faba2044b977b2a0a53a1e2
+tests/test_handoff_integrity.py,"Included-file integrity, imports, paths, data closure and independent canonical-result checks.",3268,abd730509dd017d1253918aaff106b69b84401bb14d60aec3b57000593acc608
+tests/test_out_of_sample.py,Retained core regression tests; packaging-only fixture/exclusion details in PACKAGING_NOTES.md.,10408,e9800a0c900aff9bb25ec3c33531f02589dd440a25ceaecbef49d11cb835ee9e
+tests/test_payroll_release_audit.py,Retained core regression tests; packaging-only fixture/exclusion details in PACKAGING_NOTES.md.,5545,12c96164190ad650da814001a135970812441c02a553127010c4bec1d5883515
+tests/test_rolling_validation.py,Retained core regression tests; packaging-only fixture/exclusion details in PACKAGING_NOTES.md.,11143,0c7d896602b6e485c514308d38dc41d82559ad223122003c232dc0e1d328091d
+tools/run_isolated.py,Offline audit-hook harness: forbids reads of any outside project/home data or code; permits installed runtime libraries.,2698,629322e736c228568f182e8c68b8c935e7d80a3fca137dece97d9b0958ed0e9f
+verification_checks.json,"Compact machine-readable test, isolated refit, metric reconciliation and original-project preservation receipt.",1534,8b92cd91a266fb2d01fd4279d7827bd12d67612c7894495991e401158e89e308

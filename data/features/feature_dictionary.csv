@@ -1,0 +1,131 @@
+name,source_column,description,pub_lag_months,start
+ur_imputed,,"1 if the month's unemployment rates were linearly interpolated (Oct 2025, shutdown)",0,1976-01
+ny_ur_raw,ny_ur,ny_ur with the Oct 2025 gap left as NaN (for SARIMAX),1,1976-01
+ny_ur,ny_ur,ny_ur level from monthly_panel.csv (Oct 2025 interpolated),1,1976-01
+us_ur,us_ur,us_ur level from monthly_panel.csv (Oct 2025 interpolated),0,1976-01
+nj_ur,nj_ur,nj_ur level from monthly_panel.csv (Oct 2025 interpolated),1,1976-01
+ct_ur,ct_ur,ct_ur level from monthly_panel.csv (Oct 2025 interpolated),1,1976-01
+pa_ur,pa_ur,pa_ur level from monthly_panel.csv (Oct 2025 interpolated),1,1976-01
+fedfunds,fedfunds,fedfunds level from monthly_panel.csv,0,1976-01
+spread_10y3m,spread_10y3m,spread_10y3m level from monthly_panel.csv,0,1982-01
+empire_general,empire_general,empire_general level from monthly_panel.csv,0,2001-07
+indeed_postings,indeed_postings,indeed_postings level from monthly_panel.csv,0,2020-02
+d_ny_ur,ny_ur,first difference of ny_ur,1,1976-02
+d_us_ur,us_ur,first difference of us_ur,0,1976-02
+d_nj_ur,nj_ur,first difference of nj_ur,1,1976-02
+d_ct_ur,ct_ur,first difference of ct_ur,1,1976-02
+d_pa_ur,pa_ur,first difference of pa_ur,1,1976-02
+d_fedfunds,fedfunds,first difference of fedfunds,0,1976-02
+d_spread_10y3m,spread_10y3m,first difference of spread_10y3m,0,1982-02
+g_ny_payrolls,ny_payrolls,"100 x log difference of ny_payrolls (monthly growth, %)",1,1990-02
+g_ny_coincident,ny_coincident,"100 x log difference of ny_coincident (monthly growth, %)",1,1979-02
+g_sp500,sp500,"100 x log difference of sp500 (monthly growth, %)",0,1976-02
+g_indeed_postings,indeed_postings,"100 x log difference of indeed_postings (monthly growth, %)",0,2020-03
+g_ny_claims_avg_sa,ny_claims_avg_sa,"100 x log difference of ny_claims_avg_sa (monthly growth, %)",0,1986-04
+g_us_claims,us_claims,"100 x log difference of us_claims (monthly growth, %)",0,1976-02
+yoy_ny_claims,ny_claims_avg,100 x 12-month log difference of NSA ny_claims_avg (removes seasonality without STL look-ahead),0,1987-03
+d_ny_ur_lag1,ny_ur,d_ny_ur lagged 1 month(s),0,1976-03
+d_ny_ur_lag2,ny_ur,d_ny_ur lagged 2 month(s),0,1976-04
+d_ny_ur_lag3,ny_ur,d_ny_ur lagged 3 month(s),0,1976-05
+d_ny_ur_lag4,ny_ur,d_ny_ur lagged 4 month(s),0,1976-06
+d_ny_ur_lag5,ny_ur,d_ny_ur lagged 5 month(s),0,1976-07
+d_ny_ur_lag6,ny_ur,d_ny_ur lagged 6 month(s),0,1976-08
+d_ny_ur_lag12,ny_ur,d_ny_ur lagged 12 month(s),0,1977-02
+g_ny_claims_avg_sa_lag1,ny_claims_avg_sa,g_ny_claims_avg_sa lagged 1 month(s),0,1986-05
+g_ny_claims_avg_sa_lag2,ny_claims_avg_sa,g_ny_claims_avg_sa lagged 2 month(s),0,1986-06
+g_ny_claims_avg_sa_lag3,ny_claims_avg_sa,g_ny_claims_avg_sa lagged 3 month(s),0,1986-07
+g_ny_claims_avg_sa_lag4,ny_claims_avg_sa,g_ny_claims_avg_sa lagged 4 month(s),0,1986-08
+g_ny_claims_avg_sa_lag5,ny_claims_avg_sa,g_ny_claims_avg_sa lagged 5 month(s),0,1986-09
+g_ny_claims_avg_sa_lag6,ny_claims_avg_sa,g_ny_claims_avg_sa lagged 6 month(s),0,1986-10
+g_ny_claims_avg_sa_lag12,ny_claims_avg_sa,g_ny_claims_avg_sa lagged 12 month(s),0,1987-04
+yoy_ny_claims_lag1,ny_claims_avg,yoy_ny_claims lagged 1 month(s),0,1987-04
+yoy_ny_claims_lag2,ny_claims_avg,yoy_ny_claims lagged 2 month(s),0,1987-05
+yoy_ny_claims_lag3,ny_claims_avg,yoy_ny_claims lagged 3 month(s),0,1987-06
+yoy_ny_claims_lag4,ny_claims_avg,yoy_ny_claims lagged 4 month(s),0,1987-07
+yoy_ny_claims_lag5,ny_claims_avg,yoy_ny_claims lagged 5 month(s),0,1987-08
+yoy_ny_claims_lag6,ny_claims_avg,yoy_ny_claims lagged 6 month(s),0,1987-09
+yoy_ny_claims_lag12,ny_claims_avg,yoy_ny_claims lagged 12 month(s),0,1988-03
+g_ny_payrolls_lag1,ny_payrolls,g_ny_payrolls lagged 1 month(s),0,1990-03
+g_ny_payrolls_lag2,ny_payrolls,g_ny_payrolls lagged 2 month(s),0,1990-04
+g_ny_payrolls_lag3,ny_payrolls,g_ny_payrolls lagged 3 month(s),0,1990-05
+g_ny_payrolls_lag4,ny_payrolls,g_ny_payrolls lagged 4 month(s),0,1990-06
+g_ny_payrolls_lag5,ny_payrolls,g_ny_payrolls lagged 5 month(s),0,1990-07
+g_ny_payrolls_lag6,ny_payrolls,g_ny_payrolls lagged 6 month(s),0,1990-08
+g_ny_payrolls_lag12,ny_payrolls,g_ny_payrolls lagged 12 month(s),0,1991-02
+g_ny_coincident_lag1,ny_coincident,g_ny_coincident lagged 1 month(s),0,1979-03
+g_ny_coincident_lag2,ny_coincident,g_ny_coincident lagged 2 month(s),0,1979-04
+g_ny_coincident_lag3,ny_coincident,g_ny_coincident lagged 3 month(s),0,1979-05
+g_ny_coincident_lag4,ny_coincident,g_ny_coincident lagged 4 month(s),0,1979-06
+g_ny_coincident_lag5,ny_coincident,g_ny_coincident lagged 5 month(s),0,1979-07
+g_ny_coincident_lag6,ny_coincident,g_ny_coincident lagged 6 month(s),0,1979-08
+g_ny_coincident_lag12,ny_coincident,g_ny_coincident lagged 12 month(s),0,1980-02
+empire_general_lag1,empire_general,empire_general lagged 1 month(s),0,2001-08
+empire_general_lag2,empire_general,empire_general lagged 2 month(s),0,2001-09
+empire_general_lag3,empire_general,empire_general lagged 3 month(s),0,2001-10
+empire_general_lag4,empire_general,empire_general lagged 4 month(s),0,2001-11
+empire_general_lag5,empire_general,empire_general lagged 5 month(s),0,2001-12
+empire_general_lag6,empire_general,empire_general lagged 6 month(s),0,2002-01
+empire_general_lag12,empire_general,empire_general lagged 12 month(s),0,2002-07
+d_us_ur_lag1,us_ur,d_us_ur lagged 1 month(s),0,1976-03
+d_us_ur_lag2,us_ur,d_us_ur lagged 2 month(s),0,1976-04
+d_us_ur_lag3,us_ur,d_us_ur lagged 3 month(s),0,1976-05
+d_us_ur_lag4,us_ur,d_us_ur lagged 4 month(s),0,1976-06
+d_us_ur_lag5,us_ur,d_us_ur lagged 5 month(s),0,1976-07
+d_us_ur_lag6,us_ur,d_us_ur lagged 6 month(s),0,1976-08
+d_us_ur_lag12,us_ur,d_us_ur lagged 12 month(s),0,1977-02
+g_us_claims_lag1,us_claims,g_us_claims lagged 1 month(s),0,1976-03
+g_us_claims_lag2,us_claims,g_us_claims lagged 2 month(s),0,1976-04
+g_us_claims_lag3,us_claims,g_us_claims lagged 3 month(s),0,1976-05
+g_us_claims_lag4,us_claims,g_us_claims lagged 4 month(s),0,1976-06
+g_us_claims_lag5,us_claims,g_us_claims lagged 5 month(s),0,1976-07
+g_us_claims_lag6,us_claims,g_us_claims lagged 6 month(s),0,1976-08
+g_us_claims_lag12,us_claims,g_us_claims lagged 12 month(s),0,1977-02
+d_fedfunds_lag1,fedfunds,d_fedfunds lagged 1 month(s),0,1976-03
+d_fedfunds_lag2,fedfunds,d_fedfunds lagged 2 month(s),0,1976-04
+d_fedfunds_lag3,fedfunds,d_fedfunds lagged 3 month(s),0,1976-05
+d_fedfunds_lag4,fedfunds,d_fedfunds lagged 4 month(s),0,1976-06
+d_fedfunds_lag5,fedfunds,d_fedfunds lagged 5 month(s),0,1976-07
+d_fedfunds_lag6,fedfunds,d_fedfunds lagged 6 month(s),0,1976-08
+d_fedfunds_lag12,fedfunds,d_fedfunds lagged 12 month(s),0,1977-02
+spread_10y3m_lag1,spread_10y3m,spread_10y3m lagged 1 month(s),0,1982-02
+spread_10y3m_lag2,spread_10y3m,spread_10y3m lagged 2 month(s),0,1982-03
+spread_10y3m_lag3,spread_10y3m,spread_10y3m lagged 3 month(s),0,1982-04
+spread_10y3m_lag4,spread_10y3m,spread_10y3m lagged 4 month(s),0,1982-05
+spread_10y3m_lag5,spread_10y3m,spread_10y3m lagged 5 month(s),0,1982-06
+spread_10y3m_lag6,spread_10y3m,spread_10y3m lagged 6 month(s),0,1982-07
+spread_10y3m_lag12,spread_10y3m,spread_10y3m lagged 12 month(s),0,1983-01
+g_sp500_lag1,sp500,g_sp500 lagged 1 month(s),0,1976-03
+g_sp500_lag2,sp500,g_sp500 lagged 2 month(s),0,1976-04
+g_sp500_lag3,sp500,g_sp500 lagged 3 month(s),0,1976-05
+g_sp500_lag4,sp500,g_sp500 lagged 4 month(s),0,1976-06
+g_sp500_lag5,sp500,g_sp500 lagged 5 month(s),0,1976-07
+g_sp500_lag6,sp500,g_sp500 lagged 6 month(s),0,1976-08
+g_sp500_lag12,sp500,g_sp500 lagged 12 month(s),0,1977-02
+d_nj_ur_lag1,nj_ur,d_nj_ur lagged 1 month(s),0,1976-03
+d_nj_ur_lag2,nj_ur,d_nj_ur lagged 2 month(s),0,1976-04
+d_nj_ur_lag3,nj_ur,d_nj_ur lagged 3 month(s),0,1976-05
+d_nj_ur_lag4,nj_ur,d_nj_ur lagged 4 month(s),0,1976-06
+d_nj_ur_lag5,nj_ur,d_nj_ur lagged 5 month(s),0,1976-07
+d_nj_ur_lag6,nj_ur,d_nj_ur lagged 6 month(s),0,1976-08
+d_nj_ur_lag12,nj_ur,d_nj_ur lagged 12 month(s),0,1977-02
+d_ct_ur_lag1,ct_ur,d_ct_ur lagged 1 month(s),0,1976-03
+d_ct_ur_lag2,ct_ur,d_ct_ur lagged 2 month(s),0,1976-04
+d_ct_ur_lag3,ct_ur,d_ct_ur lagged 3 month(s),0,1976-05
+d_ct_ur_lag4,ct_ur,d_ct_ur lagged 4 month(s),0,1976-06
+d_ct_ur_lag5,ct_ur,d_ct_ur lagged 5 month(s),0,1976-07
+d_ct_ur_lag6,ct_ur,d_ct_ur lagged 6 month(s),0,1976-08
+d_ct_ur_lag12,ct_ur,d_ct_ur lagged 12 month(s),0,1977-02
+d_pa_ur_lag1,pa_ur,d_pa_ur lagged 1 month(s),0,1976-03
+d_pa_ur_lag2,pa_ur,d_pa_ur lagged 2 month(s),0,1976-04
+d_pa_ur_lag3,pa_ur,d_pa_ur lagged 3 month(s),0,1976-05
+d_pa_ur_lag4,pa_ur,d_pa_ur lagged 4 month(s),0,1976-06
+d_pa_ur_lag5,pa_ur,d_pa_ur lagged 5 month(s),0,1976-07
+d_pa_ur_lag6,pa_ur,d_pa_ur lagged 6 month(s),0,1976-08
+d_pa_ur_lag12,pa_ur,d_pa_ur lagged 12 month(s),0,1977-02
+covid,,1 from 2020-03 to 2021-12,0,1976-01
+sample_long,,"1 when all core regressors exist (NY claims, payrolls, coincident, US UR/claims): 1990-02 on",0,1976-01
+sample_empire,,sample_long and empire_general exist: 2001-07 on,0,1976-01
+sample_indeed,,sample_long and indeed_postings growth exist: 2020-03 on,0,1976-01
+split,,train 1990-02..2016-12 / validation 2017-01..2020-02 / excluded = COVID 2020-03..2021-12 / test 2022-01..2025-09 / live = after the test window (contains the Oct 2025 gap) / before = pre-1990-02,0,1976-01
+taxable_yoy_latest,taxable_sales,"latest published NSA taxable sales growth vs same quarter last year (%), placed from its release month",0,2014-09
+taxable_sa_growth_latest,taxable_sales_sa,"latest published SA taxable sales growth vs previous quarter (%), placed from its release month",0,2013-12
